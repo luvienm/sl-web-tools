@@ -1,0 +1,32 @@
+{
+	"product_name": "SONOFF Zigbee 3.0 USB Dongle Plus V2",
+	"bootloader_baudrate": 115200,
+	"application_baudrate": 115200,
+	"usb_filters": [
+		{
+			"pid": 21972,
+			"vid": 6790
+		}
+	],
+	"firmwares": [
+		{
+			"name": "Zigbee (EZSP)",
+			"url": "https://raw.githubusercontent.com/luvienm/sl-webtools/firmware/sonoff_zbdongle-e_silabs_4.2.1_zigbee_ncp_uart-115200-current.gbl",
+			"type": "ncp-uart-hw",
+			"version": "7.1.4.0"
+		},
+		{
+			"name": "Multi-PAN Zigbee & Openthread (RCP)",
+			"url": "https://raw.githubusercontent.com/luvienm/sl-webtools/firmware/sonoff_zbdongle-e_silabs_4.2.1_zigbee_openthread_rcp_uart-230400-current.gbl",
+			"type": "rcp-uart-802154",
+			"version": "4.2.1"
+		}
+		{
+			"name": "Openthread (RCP)",
+			"url": "https://raw.githubusercontent.com/luvienm/sl-webtools/firmware/sonoff_zbdongle-e_silabs_4.1.3_openthread_rcp_uart-115200-current.gbl",
+			"type": "ot-rcp-uart-802154",
+			"version": "4.1.3"
+		}
+	],
+	"allow_custom_firmware_upload": true
+}
