@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/automatedspacesc/public_html/sl-web-tools/
+    - /bin/cp -R * $DEPLOYPATH
