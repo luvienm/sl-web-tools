@@ -20,7 +20,7 @@
 			"url": "https://github.com/luvienm/sl-web-tools/blob/dev/firmware/sonoff_zbdongle-e_silabs_4.2.1_zigbee_openthread_rcp_uart-230400-current.gbl",
 			"type": "rcp-uart-802154",
 			"version": "4.2.1"
-		}
+		},
 		{
 			"name": "Openthread (RCP)",
 			"url": "https://github.com/luvienm/sl-web-tools/blob/dev/firmware/sonoff_zbdongle-e_silabs_4.1.3_openthread_rcp_uart-115200-current.gbl",
