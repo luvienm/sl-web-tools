@@ -13,7 +13,7 @@
 			"name": "Zigbee (EZSP)",
 			"url": "https://github.com/luvienm/sl-web-tools/blob/dev/firmware/sonoff_zbdongle-e_silabs_4.2.1_zigbee_ncp_uart-115200-current.gbl",
 			"type": "ncp-uart-hw",
-			"version": "7.1.4.0"
+			"version": "7.2.1.0"
 		},
 		{
 			"name": "Multi-PAN Zigbee & Openthread (RCP)",
@@ -24,7 +24,7 @@
 		{
 			"name": "Openthread (RCP)",
 			"url": "https://github.com/luvienm/sl-web-tools/blob/dev/firmware/sonoff_zbdongle-e_silabs_4.1.3_openthread_rcp_uart-115200-current.gbl",
-			"type": "ot-rcp-uart-802154",
+			"type": "ot-rcp",
 			"version": "4.1.3"
 		}
 	],
