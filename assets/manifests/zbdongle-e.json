@@ -1,7 +1,7 @@
 {
 	"product_name": "SONOFF Zigbee 3.0 USB Dongle Plus V2",
 	"bootloader_baudrate": 115200,
-	"application_baudrate": 115200,
+	"application_baudrate": 230400,
 	"usb_filters": [
 		{
 			"pid": 21972,
@@ -11,22 +11,16 @@
 	"firmwares": [
 		{
 			"name": "Zigbee (EZSP)",
-			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.1_zigbee_ncp_uart-115200-current.gbl",
+			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_ncp_uart-230400-current.gbl",
 			"type": "ncp-uart-hw",
-			"version": "7.2.1.0"
+			"version": "7.2.2.0"
 		},
 		{
 			"name": "Multi-PAN Zigbee & Openthread (RCP)",
-			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.1_zigbee_openthread_rcp_uart-230400-current.gbl",
+			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_openthread_rcp_uart-230400-current.gbl",
 			"type": "rcp-uart-802154",
-			"version": "4.2.1"
+			"version": "4.2.2"
 		},
-		{
-			"name": "Openthread (RCP)",
-			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.1.3_openthread_rcp_uart-115200-current.gbl",
-			"type": "ot-rcp",
-			"version": "4.1.3"
-		}
 	],
 	"allow_custom_firmware_upload": true
 }
