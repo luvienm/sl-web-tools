@@ -1,7 +1,7 @@
 {
 	"product_name": "SONOFF Zigbee 3.0 USB Dongle Plus V2",
 	"bootloader_baudrate": 115200,
-	"application_baudrate": 230400,
+	"application_baudrate": 460800,
 	"usb_filters": [
 		{
 			"pid": 21972,
@@ -11,13 +11,13 @@
 	"firmwares": [
 		{
 			"name": "Zigbee (EZSP)",
-			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_ncp_uart-230400-current.gbl",
+			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_ncp_uart-460800-current.gbl",
 			"type": "ncp-uart-hw",
 			"version": "7.2.2.0"
 		},
 		{
 			"name": "Multi-PAN Zigbee & Openthread (RCP)",
-			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_openthread_rcp_uart-230400-current.gbl",
+			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_openthread_rcp_uart-460800-current.gbl",
 			"type": "rcp-uart-802154",
 			"version": "4.2.2"
 		}
