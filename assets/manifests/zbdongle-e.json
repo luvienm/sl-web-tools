@@ -11,15 +11,15 @@
 	"firmwares": [
 		{
 			"name": "Zigbee (EZSP)",
-			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_ncp_uart-460800-current.gbl",
+			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.3_zigbee_ncp_uart-460800-current.gbl",
 			"type": "ncp-uart-hw",
-			"version": "7.2.2.0"
+			"version": "7.2.3.0"
 		},
 		{
 			"name": "Multi-PAN Zigbee & Openthread (RCP)",
-			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.2_zigbee_openthread_rcp_uart-460800-current.gbl",
+			"url": "https://automatedspaces.au/sl-web-tools/firmware/sonoff_zbdongle-e_silabs_4.2.3_zigbee_openthread_rcp_uart-460800-current.gbl",
 			"type": "rcp-uart-802154",
-			"version": "4.2.2"
+			"version": "4.2.3"
 		}
 	],
 	"allow_custom_firmware_upload": true
